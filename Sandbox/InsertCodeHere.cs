@@ -14,6 +14,8 @@ namespace Sandbox
             pool.AddCarToPool(new Car("AG 57 109", "Ford", "Fiesta"));
             pool.AddCarToPool(new Car("DE 44 006", "BMW", "320i"));
 
+            pool.LookupCar("CF 32 556");
+
             // Pool should now contain the three cars given above
             Console.WriteLine("The Car Pool now contains:");
             pool.PrintAllCarsInPool();

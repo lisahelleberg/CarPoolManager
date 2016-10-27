@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
+//using System.Linq/*;*/
 using System.Text;
 
 namespace Sandbox
@@ -35,7 +35,12 @@ namespace Sandbox
         // Otherwise, return null
         public Car LookupCar(String licensePlate)
         {
-            // Complete this method
+            if (carList.ContainsKey(licensePlate))
+            {
+                return carList[licensePlate]; 
+                
+            }
+                // Complete this method
             return null;
         }
 
