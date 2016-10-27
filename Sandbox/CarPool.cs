@@ -19,6 +19,7 @@ namespace Sandbox
         // Add the given car to the car pool
         public void AddCarToPool(Car aCar)
         {
+            carList.Add(aCar.GetLicensePlate(), aCar);
             // Complete this method
         }
 
@@ -26,6 +27,7 @@ namespace Sandbox
         // If the license plate does not exist, do nothing
         public void RemoveCarFromPool(String licensePlate)
         {
+            
             // Complete this method
         }
 
