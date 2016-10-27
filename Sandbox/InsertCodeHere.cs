@@ -22,10 +22,10 @@ namespace Sandbox
             pool.RemoveCarFromPool("AG 57 109");
             pool.RemoveCarFromPool("DOES NOT EXIST");
 
-            //// Pool should now contain two cars
-            //Console.WriteLine("The Car Pool now contains:");
-            //pool.PrintAllCarsInPool();
-            //Console.WriteLine();
+            // Pool should now contain two cars
+            Console.WriteLine("The Car Pool now contains:");
+            pool.PrintAllCarsInPool();
+            Console.WriteLine();
 
             // The LAST line of code should be ABOVE this line
         }

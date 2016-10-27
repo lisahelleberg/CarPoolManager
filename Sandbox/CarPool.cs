@@ -27,7 +27,7 @@ namespace Sandbox
         // If the license plate does not exist, do nothing
         public void RemoveCarFromPool(String licensePlate)
         {
-            
+            carList.Remove(licensePlate);
             // Complete this method
         }
 
